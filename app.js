@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded',() =>{
     const width = 10
 
     //The Tetrominoes ie the shapes 
-    const lTetrominoes = [
+
+    const lTetromino = [
         [1, width+1, width*2+1, 2],
         [width, width+1, width+2, width*2+2],
         [1, width+1, width*2+1, width*2],
@@ -44,6 +45,11 @@ document.addEventListener('DOMContentLoaded',() =>{
       ]
 
       const theTetrominoes = [lTetromino, zTetromino, tTetromino, oTetromino, iTetromino]
+
+  let currentPosition = 4
+  let currentRotation = 0
+
+  
 
     
 })
